@@ -12,12 +12,14 @@
 						<li>Page</li>
 					</ul>
 				</li>
-				<li>Colors</li>
+				<li>Style Guide</li>
+				<!--
 				<li>Typography</li>
 				<li>Navigation</li>
 				<li>Forms</li>
 				<li>Dialogs</li>
 				<li>Widgets</li>
+				-->
 			</ul>
 		</nav>
 	</div>
