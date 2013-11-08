@@ -120,23 +120,25 @@ padding: 20px;
 
 /* - HEADER */
 .site-brand, .site-search {
-text-align: center;
 display: inline-block;
-padding: 30px 20px;
+text-align: center;
+padding: 40px 20px;
 background: rgba(255,255,255,.9);
 margin-bottom: 20px;
 }
 .site-brand {
+float: left;
 width: 60%;
-margin-right: 15px;
 }
 .site-search {
-width: 37%;
+float: right;
+width: 38%;
 }
 
 /* - SITE NAV */
 
 .site-nav {
+clear: both;
 background: rgba(255,255,255,.9);
 padding: 10px;
 margin-bottom: 20px;
@@ -148,19 +150,6 @@ padding: 5px 15px;
 background: rgba(209,204,202,.4);
 }
 
-/* - MAIN CONTENT */
-.page-content {
-position: relative;
-}
-.recent-entries {
-padding: 20px;
-position: absolute;
-background: rgba(0,128,255,.3);
-position: relative;
-top: 0;
-left: 0px;
-margin: 0 320px 20px 170px;
-}
 
 /* - SIDEBARS */
 .sidebar {
@@ -168,7 +157,6 @@ margin-bottom: 20px;
 position: absolute;
 top: 0;
 min-height: 400px;
-background: rgba(128,0,0,.4);
 }
 .left-sidebar {
 min-width: 150px;
@@ -176,6 +164,13 @@ min-width: 150px;
 .right-sidebar {
 right: 0;
 min-width: 300px;
+}
+.widget {
+font-size: .9em;
+text-align: center;
+padding: 10px 0;
+margin-bottom: 20px;
+background: rgba(255,255,255,.9);
 }
 
 /* - FOOTER */
@@ -186,3 +181,53 @@ padding: 30px 20px;
 background: rgba(255,255,255,.9);
 width: 100%;
 }
+
+/* - MAIN CONTENT */
+.page-content {
+position: relative;
+}
+.recent-entries {
+position: absolute;
+position: relative;
+top: 0;
+left: 0px;
+margin: 0 320px 20px 170px;
+}
+
+/* Featured Images */
+.featured-image {
+color: #aaa;
+text-align: center;
+background: #aaa;
+}
+
+/* Entry Lists */ 
+article, .entry-list-full li {
+clear: both;
+background: rgba(255,255,255,.9);
+margin-bottom: 20px;
+}
+.entry-list-full .featured-image {
+width: 40%;
+padding-top: 20%; 
+margin: 0 10px 10px 0;
+float: left;
+}
+
+/* Entry */
+.entry-title {
+font-size: 1.5em;
+font-weight: bold;
+}
+.entry-byline {
+font-size: .9em;
+}
+.entry-header {
+margin-bottom: 10px;
+}
+.entry-featured .featured-image {
+width: 100%;
+padding-top: 60%; 
+margin-bottom: 20px;
+}
+
