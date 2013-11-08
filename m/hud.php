@@ -6,7 +6,7 @@
 			<ul>
 				<li>Grid
 					<ul>
-						<li><a href="/redesign/grid/home/">Home</a></li>
+						<li><a href="grid-home">Home</a></li>
 						<li>Archive</li>
 						<li>Recipe</li>
 						<li>Page</li>

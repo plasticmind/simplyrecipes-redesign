@@ -1,4 +1,5 @@
-<?php include('/home/simplyr/public_html/redesign/m/header.php'); ?>
+<?php include( 'bootstrap.php'); ?>
+<?php include( INCLUDE_ROOT . 'header.php'); ?>
 
 <header class="local-header">
 	<h1>Site Layout: Home</h1>
@@ -22,4 +23,4 @@
 	</article>
 </section>
 
-<?php include('/home/simplyr/public_html/redesign/m/footer.php'); ?>
+<?php include( INCLUDE_ROOT . 'footer.php'); ?>
