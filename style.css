@@ -21,7 +21,7 @@ border-bottom: solid 1px #e3d1c6;
 border-right: solid 1px #c3b1a6;
 }
 .hud-brand a {
-background: transparent url(/redesign/i/flower-shaded-150.png) 15px 15px no-repeat;
+background: transparent url(i/flower-shaded-150.png) 15px 15px no-repeat;
 height: 180px;
 display: block;
 }
