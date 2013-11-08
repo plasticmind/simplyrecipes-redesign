@@ -7,9 +7,9 @@
 				<li>Grid
 					<ul>
 						<li><a href="grid-home">Home</a></li>
-						<li>Archive</li>
-						<li>Recipe</li>
-						<li>Page</li>
+						<li><a href="grid-archive">Archive</a></li>
+						<li><a href="grid-recipe">Recipe</a></li>
+						<li><a href="grid-page">Page</a></li>
 					</ul>
 				</li>
 				<li>Style Guide</li>
