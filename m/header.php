@@ -11,5 +11,5 @@
 	<?php echo (isset($header_meta)?$header_meta:''); ?>
 </head>
 <body class="patterns">
-	<?php include('/home/simplyr/public_html/redesign/m/hud.php'); ?>
+	<?php include(INCLUDE_ROOT . 'hud.php'); ?>
 	<div id="wrap">
