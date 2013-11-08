@@ -202,7 +202,7 @@ background: #aaa;
 }
 
 /* Entry Lists */ 
-article, .entry-list-full li {
+article, .entry-list-full li, .entry-list-terse {
 clear: both;
 background: rgba(255,255,255,.9);
 margin-bottom: 20px;
