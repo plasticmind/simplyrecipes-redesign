@@ -87,6 +87,20 @@ font-size: 1.2em;
 opacity: .7;
 }
 
+/* WIDTH LOGGER*/
+#width-logger {
+position: absolute;
+right: 25px;
+top: 25px;
+border-radius: 15px;
+display: block;
+background: #af2d27;
+padding: 4px 11px;
+color: #fff;
+opacity: .5;
+}
+
+
 /* === Pattern Style Library */
 
 /* = BASE */
