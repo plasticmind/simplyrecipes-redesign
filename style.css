@@ -91,7 +91,7 @@ opacity: .7;
 #width-logger {
 position: absolute;
 right: 25px;
-top: 25px;
+top: 30px;
 border-radius: 15px;
 display: block;
 background: #af2d27;
@@ -99,7 +99,6 @@ padding: 4px 11px;
 color: #fff;
 opacity: .5;
 }
-
 
 /* === Pattern Style Library */
 
@@ -130,6 +129,31 @@ padding: 20px;
 }
 .grid * {
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/* - FLUID/FLEXIBLE LAYOUT */
+
+.page-content {
+padding: 0 200px 0 200px; /* ---> Sidebar width */
+}
+.content-wrap,
+.sidebar {
+position: relative;
+float: left;
+}
+.content-wrap {
+width: 100%;
+}
+.sidebar {
+width: 180px;
+}
+.sidebar-left {
+margin-left: -100%;
+right: 200px;
+}
+.sidebar-right {
+left: 20px;
+margin-right: -100%;
 }
 
 /* - HEADER */
@@ -164,21 +188,8 @@ padding: 5px 15px;
 background: rgba(209,204,202,.4);
 }
 
-
 /* - SIDEBARS */
-.sidebar {
-margin-bottom: 20px;
-position: absolute;
-top: 0;
-min-height: 400px;
-}
-.left-sidebar {
-min-width: 150px;
-}
-.right-sidebar {
-right: 0;
-min-width: 300px;
-}
+
 .widget {
 font-size: .9em;
 text-align: center;
@@ -187,7 +198,13 @@ margin-bottom: 20px;
 background: rgba(255,255,255,.9);
 }
 
+/* Widgets */
+.widget-ad-tall {
+min-height: 600px;
+}
+
 /* - FOOTER */
+
 .site-footer {
 clear: both;
 text-align: center;
@@ -197,16 +214,6 @@ width: 100%;
 }
 
 /* - MAIN CONTENT */
-.page-content {
-position: relative;
-}
-.content-wrap {
-position: absolute;
-position: relative;
-top: 0;
-left: 0px;
-margin: 0 320px 20px 170px;
-}
 
 /* Featured Images */
 .featured-image {

@@ -27,4 +27,4 @@
 </head>
 <body class="patterns">
 	<?php include(INCLUDE_ROOT . 'hud.php'); ?>
-	<div id="wrap">
+	<div id="wrap" class="old">
