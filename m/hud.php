@@ -3,6 +3,7 @@
 			<a href="/redesign/"></a>
 		</div>
 		<nav class="hud-nav">
+			<div id="hud-visibility">&larr; Minimize</div>
 			<ul>
 				<li>Grid
 					<ul>

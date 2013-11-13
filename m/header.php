@@ -12,6 +12,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script>
 		$( document ).ready(function() {
+			/* WIDTH ALERT */
 			var body_size = $('#wrap').width();
 			$("#wrap").prepend('<div id="width-logger">'+body_size+'px</div>');
 			var resizeTimer;
@@ -21,6 +22,14 @@
 			    var body_size = $('#wrap').width();
 			    $('#width-logger').html(body_size+'px');
 			  }, 25);
+			});
+			/* HIDE NAV */
+			$("#hud-visibility").click(function() {
+			    $("body").toggleClass('hud-closed').delay(1000);
+			});
+
+			$(document).on("mouseover", ".hud-closed #hud", function(e) {
+			    $("body").removeClass('hud-closed');
 			});
 		});
 	</script>
