@@ -113,17 +113,60 @@ font-size: 1.2em;
 opacity: .7;
 }
 
-/* Width Alert */
-#width-logger {
+
+/* Layout Tools */
+#layout-tools {
+font-size: 13px;
 position: absolute;
 right: 25px;
 top: 30px;
-border-radius: 15px;
+border-radius: 20px;
 display: block;
-background: #af2d27;
-padding: 4px 11px;
+background: #edebea;
+padding: 4px 4px 4px 12px;
+color: #777;
+}
+#layout-toggle {
+margin-right: 20px;
+}
+#layout-toggle, #width-alert {
+display: inline-block;
+}
+#layout-toggle span {
+background: #333;
 color: #fff;
+border-radius: 15px;
+padding: 1px 10px;
+border: solid 1px transparent;
+opacity: .7;
+}
+#layout-toggle span.inactive:hover {
+background-color: #777;
+color: #fff;
+}
+#layout-toggle span.inactive {
+cursor: pointer;
+background: #fff;
+color: #000;
 opacity: .5;
+}
+.grid-new,
+.layout-old .grid-new,
+.layout-new .grid-old {
+  display: none;
+}
+.grid-old,
+.layout-old .grid-old,
+.layout-new .grid-new {
+  display: block;
+}
+
+
+/* Width Alert */
+#width-alert {
+padding: 1px 10px 2px;
+opacity: .7;
+color: #af2d27;
 }
 
 /* === Pattern Style Library */

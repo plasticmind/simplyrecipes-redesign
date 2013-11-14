@@ -3,7 +3,6 @@
 
 <header class="local-header">
 	<h1>Site Layout: Page</h1>
-	<h2>A live demo of our semi-responsive page layout for standalone pages.</h2>
 </header>
 
 <section class="grid single page">
