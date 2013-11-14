@@ -268,9 +268,12 @@ background: rgba(255,255,255,.9);
 }
 
 /* Widgets */
-.widget-ad-tall {
-min-height: 600px;
-}
+.widget {min-height:100px;}
+.widget-ad-tall {min-height:600px;}
+.widget-nav {min-height:750px;}
+.widget-fbs {min-height:150px}
+.widget-ad-house {min-height:250px;}
+.widget-facebook {min-height:350px;}
 
 /* - FOOTER */
 
