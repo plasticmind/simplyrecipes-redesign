@@ -123,7 +123,7 @@ top: 30px;
 border-radius: 20px;
 display: block;
 background: #edebea;
-padding: 4px 4px 4px 12px;
+padding: 4px 4px 2px 12px;
 color: #777;
 }
 #layout-toggle {
@@ -135,27 +135,37 @@ display: inline-block;
 #layout-toggle span {
 background: #333;
 color: #fff;
-border-radius: 15px;
 padding: 1px 10px;
 border: solid 1px transparent;
 opacity: .7;
 }
-#layout-toggle span.inactive:hover {
-background-color: #777;
-color: #fff;
+#layout-toggle span:first-child {
+  border-radius: 15px 0 0 15px;
+  border-right: 0;
+}
+#layout-toggle span:last-child {
+  border-radius: 0 15px 15px 0;
+  border-left: 0;
 }
 #layout-toggle span.inactive {
 cursor: pointer;
 background: #fff;
+border-color: #ccc;
 color: #000;
 opacity: .5;
 }
-.grid-new,
+#layout-toggle span.inactive:hover {
+background-color: #777;
+border-color: #555;
+color: #fff;
+}
+
+.grid-old,
 .layout-old .grid-new,
 .layout-new .grid-old {
   display: none;
 }
-.grid-old,
+.grid-new,
 .layout-old .grid-old,
 .layout-new .grid-new {
   display: block;

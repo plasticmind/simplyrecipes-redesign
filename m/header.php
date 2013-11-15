@@ -14,7 +14,10 @@
 		$( document ).ready(function() {
 			/* WIDTH ALERT */
 			var body_size = $('#wrap').width();
-			$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle">Layout: <span class="toggle-layout-old">Old</span> <span class="toggle-layout-new inactive">New</span></div><div id="width-alert">'+body_size+'px</div></div>');
+			if ($(".grid-new")[0]){
+   				// Do something here if an element with this class exists
+				$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle">Layout: <span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div><div id="width-alert">'+body_size+'px</div></div>');
+			}
 			var resizeTimer;
 			$(window).resize(function() {
 			  clearTimeout(resizeTimer);
