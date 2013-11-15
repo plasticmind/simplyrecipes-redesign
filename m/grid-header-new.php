@@ -1,13 +1,14 @@
 	<header class="site-header">
-		<div class="site-brand">Brand</div>
-		<div class="site-search">Bio</div>
+		<div class="site-brand">
+			<div class="site-logo">Logo</div>
+			<h1 class="site-name">Name</h1>
+		</div>
 		<nav class="site-nav">
 			<ul>
-				<li>Item1</li>
-				<li>Item2</li>
-				<li>Item3</li>
-				<li>Item4</li>
-				<li>Item5</li>
+				<li>First Time Here?</li>
+				<li>About</li>
+				<li>Subscribe</li>
+				<li>Recipe Box</li>
 			</ul>
 		</nav>
 	</header>
