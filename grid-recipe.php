@@ -26,7 +26,7 @@
 </section>
 
 <section class="grid grid-new single recipe">
-<?php include( INCLUDE_ROOT . 'grid-header.php'); ?>
+<?php include( INCLUDE_ROOT . 'grid-header-new.php'); ?>
 			<div class="content-wrap entry-full">
 				<article class="entry recipe">
 					<div class="featured-image">Featured Image</div>
@@ -42,7 +42,7 @@
 					</div>
 				</article>
 			</div>
-<?php include( INCLUDE_ROOT . 'grid-footer.php'); ?>
+<?php include( INCLUDE_ROOT . 'grid-footer-new.php'); ?>
 </section>
 
 

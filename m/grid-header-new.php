@@ -1,6 +1,6 @@
 	<header class="site-header">
 		<div class="site-brand">Brand</div>
-		<div class="site-search">Search</div>
+		<div class="site-search">Bio</div>
 		<nav class="site-nav">
 			<ul>
 				<li>Item1</li>
