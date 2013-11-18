@@ -9,7 +9,9 @@
 <?php include( INCLUDE_ROOT . 'grid-header.php'); ?>
 			<div class="content-wrap entry-full">
 				<article class="entry recipe">
-					<div class="featured-image">Featured Image</div>
+					<div class="featured-image">
+						<img src="i/photo-vertical.jpg" alt="">
+					</div>
 					<header class="entry-header">
 						<h3 class="entry-title">Entry Title</h3>
 						<p class="entry-byline">Entry Byline</p>
@@ -47,7 +49,9 @@
 			<div class="content-wrap entry-full">
 				<article class="entry recipe">
 				<article class="entry recipe">
-					<div class="featured-image">Featured Image</div>
+					<div class="featured-image">
+						<img src="i/photo-vertical.jpg" alt="">
+					</div>
 					<header class="entry-header">
 						<h3 class="entry-title">Entry Title</h3>
 						<p class="entry-byline">Entry Byline</p>
