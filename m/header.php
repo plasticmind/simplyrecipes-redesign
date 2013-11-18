@@ -18,6 +18,7 @@
    				// Do something here if an element with this class exists
 				$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle">Layout: <span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div><div id="width-alert">'+body_size+'px</div></div>');
 			}
+			//$("#wrap").prepend('<div id="layout-tools"><div id="width-alert">'+body_size+'px</div></div>');
 			var resizeTimer;
 			$(window).resize(function() {
 			  clearTimeout(resizeTimer);

@@ -3,11 +3,11 @@
 		<div class="site-search">Search</div>
 		<nav class="site-nav">
 			<ul>
-				<li>Item1</li>
-				<li>Item2</li>
-				<li>Item3</li>
-				<li>Item4</li>
-				<li>Item5</li>
+				<li>Home</li>
+				<li>About</li>
+				<li>Recipe Index</li>
+				<li>Subscribe</li>
+				<li>Recipe Box</li>
 			</ul>
 		</nav>
 	</header>
