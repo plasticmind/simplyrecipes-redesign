@@ -76,8 +76,10 @@
 			});
 
 
-			/* Default to Fullscreen */
+			/* Default to fullscreen for now... */
+			if ($(".single")[0]){
 			$("body").toggleClass('fullscreen');
+			}
 
 			function reportWidth(){
 				if ($(".fullscreen")[0]){ 
