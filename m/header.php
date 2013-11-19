@@ -9,19 +9,19 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="style.css">
 	<?php echo (isset($header_meta)?$header_meta:''); ?>
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
 	<script>
 		$( document ).ready(function() {
 
 			/* WIDTH ALERT */
 			var body_size = $('#wrap').width();
 			if ($(".grid-new")[0]){
-				layout_toggle = '<div id="layout-toggle"><span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div>'
+				layout_toggle = '<div id="layout-toggle"><span class="toggle-layout-new">New</span><span class="toggle-layout-old inactive">Old</span></div>'
 			} else {
 				layout_toggle = '';
 			}
 			// Do something here if an element with this class exists
-			$("#wrap").prepend('<div id="layout-tools">'+layout_toggle+'<div id="width-alert">'+body_size+'px</div> <div id="layout-fullscreen">Fullscreen</div></div>');
+			$("#wrap").prepend('<div id="layout-tools"><div id="photo-toggle"><span class="toggle-photo-vertical">Vert</span><span class="toggle-photo-horizontal inactive">Horiz</span></div> '+layout_toggle+'<div id="width-alert">'+body_size+'px</div> <div id="layout-fullscreen">Fullscreen</div></div>');
 
 			var resizeTimer;
 			$(window).resize(function() {
@@ -61,12 +61,30 @@
 					}
 				}
 			});
+			$("#photo-toggle span").click(function() {
+				if($(this).hasClass('inactive')){
+					$(this).removeClass('inactive');
+					$(this).siblings().addClass('inactive');
+					if($(this).hasClass('toggle-photo-horizontal')){
+						$("#wrap").addClass('photo-horizontal').removeClass('photo-vertical');
+						$('.featured-image').html('<img src="i/photo-horizontal.jpg" alt="">');
+					} else {
+						$("#wrap").addClass('photo-vertical').removeClass('photo-horizontal');
+						$('.featured-image').html('<img src="i/photo-vertical.jpg" alt="">');
+					}
+				}
+			});
+
 
 			/* Default to Fullscreen */
 			$("body").toggleClass('fullscreen');
 
 			function reportWidth(){
-				var body_size = $('#wrap').width();
+				if ($(".fullscreen")[0]){ 
+					var body_size = $('body').width();
+				} else {
+					var body_size = $('#wrap').width();
+				}
 			    $('#width-alert').html(body_size+'px');
 			}
 		});
