@@ -12,36 +12,44 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script>
 		$( document ).ready(function() {
+
 			/* WIDTH ALERT */
 			var body_size = $('#wrap').width();
 			if ($(".grid-new")[0]){
-   				// Do something here if an element with this class exists
-				$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle"><span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div><div id="width-alert">'+body_size+'px</div> <div id="layout-fullscreen">Fullscreen</div></div>');
+				layout_toggle = '<div id="layout-toggle"><span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div>'
+			} else {
+				layout_toggle = '';
 			}
-			//$("#wrap").prepend('<div id="layout-tools"><div id="width-alert">'+body_size+'px</div></div>');
+			// Do something here if an element with this class exists
+			$("#wrap").prepend('<div id="layout-tools">'+layout_toggle+'<div id="width-alert">'+body_size+'px</div> <div id="layout-fullscreen">Fullscreen</div></div>');
+
 			var resizeTimer;
 			$(window).resize(function() {
 			  clearTimeout(resizeTimer);
 			  resizeTimer = setTimeout(function() {
-			    var body_size = $('#wrap').width();
-			    $('#width-alert').html(body_size+'px');
+			  	reportWidth();
 			  }, 25);
 			});
+			reportWidth();
+
 			/* HIDE NAV */
 			$("#hud-visibility").click(function() {
-			    $("body").toggleClass('hud-closed').delay(1000);
+			    $("body").toggleClass('hud-closed');
+			    reportWidth();
 			});
 			$("#layout-fullscreen").click(function() {
 			    $("body").toggleClass('fullscreen');
+			    reportWidth();
 			});
 			$(document).on("mouseover", ".hud-closed #hud", function(e) {
 			    $("body").removeClass('hud-closed');
+			    reportWidth();
+			});
+			$(document).on("mouseover", ".hud-closed #hud", function(e) {
+			    $("body").removeClass('hud-closed');
+			    reportWidth();
 			});
 			/* LAYOUT CONTROLS */
-			$(document).on("mouseover", ".hud-closed #hud", function(e) {
-			    $("body").removeClass('hud-closed');
-			});
-
 			$("#layout-toggle span").click(function() {
 				if($(this).hasClass('inactive')){
 					$(this).removeClass('inactive');
@@ -52,8 +60,15 @@
 						$("#wrap").addClass('layout-new').removeClass('layout-old');
 					}
 				}
-			    
 			});
+
+			/* Default to Fullscreen */
+			$("body").toggleClass('fullscreen');
+
+			function reportWidth(){
+				var body_size = $('#wrap').width();
+			    $('#width-alert').html(body_size+'px');
+			}
 		});
 	</script>
 </head>
