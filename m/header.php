@@ -16,7 +16,7 @@
 			var body_size = $('#wrap').width();
 			if ($(".grid-new")[0]){
    				// Do something here if an element with this class exists
-				$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle">Layout: <span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div><div id="width-alert">'+body_size+'px</div></div>');
+				$("#wrap").prepend('<div id="layout-tools"><div id="layout-toggle"><span class="toggle-layout-old inactive">Old</span><span class="toggle-layout-new">New</span></div><div id="width-alert">'+body_size+'px</div> <div id="layout-fullscreen">Fullscreen</div></div>');
 			}
 			//$("#wrap").prepend('<div id="layout-tools"><div id="width-alert">'+body_size+'px</div></div>');
 			var resizeTimer;
@@ -30,6 +30,9 @@
 			/* HIDE NAV */
 			$("#hud-visibility").click(function() {
 			    $("body").toggleClass('hud-closed').delay(1000);
+			});
+			$("#layout-fullscreen").click(function() {
+			    $("body").toggleClass('fullscreen');
 			});
 			$(document).on("mouseover", ".hud-closed #hud", function(e) {
 			    $("body").removeClass('hud-closed');
