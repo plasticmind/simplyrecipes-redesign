@@ -118,14 +118,14 @@ opacity: .7;
 
 /* Layout Tools */
 #layout-tools {
-font-size: 13px;
+  font-family: 'Lucida Grande', serif;
+font-size: 12px;
 position: absolute;
 right: 25px;
 top: 25px;
 display: block;
 background: rgba(139,134,132,.2);
-padding: 4px 4px 3px 12px;
-color: #777;
+padding: 4px 4px 1px 12px;
 }
 #photo-toggle, #layout-toggle, #width-alert {
 display: inline-block;
@@ -135,7 +135,8 @@ display: inline-block;
 margin-right: 20px;
 }
 #layout-tools span {
-background: #333;
+  border-radius: 15px;
+background: #777;
 color: #fff;
 padding: 1px 10px;
 opacity: .7;
@@ -143,10 +144,10 @@ margin-left: 5px;
 }
 #layout-tools span.inactive {
 cursor: pointer;
-background: #fff;
+background: #eee;
 border-color: #ccc;
 color: #000;
-opacity: .5;
+opacity: .7;
 }
 #layout-tools span.inactive:hover {
 background-color: #777;
@@ -173,8 +174,9 @@ color: #fff;
   width: 21px;
   height: 16px;
   display: inline-block;
+ 
   text-indent: -999em;
-  margin-right: 10px;
+  margin-right: 20px;
   background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAAYUlEQVQ4y+2UMQrAMAhFc113pxxBt2SLg7uX/B1LhjaFNnTxwVsfHwRLSbagqjAzqOorIwJT9ItxGT07tVa01iAitxIRHkeZGe6+lJkz+meUiJaXFxGMMRARl/bekU9vDwfiFUOMJ1QtBwAAAABJRU5ErkJggg==) no-repeat;  
 }
 .fullscreen #hud,
@@ -183,18 +185,19 @@ color: #fff;
 }
 .fullscreen #wrap {
   margin-left: 0;
-  padding: 25px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .fullscreen #layout-tools {
-background: rgba(219,214,212,.98);  
+  font-size: 12px;
+background: rgba(212,215,212,.98);  
   z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
-border-bottom: solid 1px rgba(0,0,0,.1);
+border-bottom: solid 1px rgba(0,0,0,.2);
   transition: opacity .25s;
   width: 100%;
-  opacity: .2;
+  
 }
 .fullscreen #layout-tools:hover {
 opacity: 1;
@@ -202,7 +205,7 @@ opacity: 1;
 
 /* Width Alert */
 #width-alert {
-padding: 1px 10px 3px;
+padding: 1px 20px 3px 10px;
 opacity: 1;
 color: #af2d27;
 font-weight: bold;
@@ -422,5 +425,10 @@ article.entry ul {
 max-width: 400px;
 float: left;
 margin: 0 1em 1em 0;
+}
+}
+@media only screen and (max-width: 768px) {
+.fullscreen #wrap {
+  background-color: #900;
 }
 }
