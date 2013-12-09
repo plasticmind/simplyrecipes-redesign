@@ -101,6 +101,7 @@ display: inline-block;
 margin-right: 5px;
 padding: 5px 12px;
 background: rgba(239,234,232,.5);
+cursor: pointer;
 }
 
 /* - SIDEBARS */
@@ -114,7 +115,6 @@ margin-bottom: 1em;
 }
 .widget {min-height:100px;}
 .widget-ad-tall {min-height:600px;}
-.widget-nav {min-height:750px;}
 .widget-fbs {min-height:150px}
 .widget-ad-house {min-height:250px;}
 .widget-facebook {min-height:350px;}
@@ -127,7 +127,28 @@ margin-bottom: 1em;
   font-weight: bold;
   background: rgba(255,255,255,.9);
   margin-bottom: .5em;
+  cursor: pointer;
 }
+
+.widget-nav h4:after {
+  font-size: .7em;
+  content: "▼";
+  float: right;
+  opacity: .3;
+  position: relative;
+  top: 2px;
+  right: -2px;
+}
+.widget-nav h4:hover:after {
+  opacity: .8;
+}
+.widget-nav .active h4 {
+  cursor: auto;
+}
+.widget-nav .active h4:after {
+  content: "";
+}
+
 .widget-nav ul {
   display:none;
   padding: .5em;
@@ -283,7 +304,7 @@ article.entry h5 {
   top: -160px;
 }
 }
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1351px) {
 .fullscreen #wrap {
   max-width: 1350px;
 }

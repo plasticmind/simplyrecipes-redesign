@@ -95,7 +95,7 @@
 			/* Collapsing sidebar nav */
 			$(".widget-nav h4").click(function(){
 				$(".widget-nav .widget-section").removeClass('active');
-				$(this).parent().addClass('active');
+				$(this).parent().toggleClass('active');
 			})
 
 		});
