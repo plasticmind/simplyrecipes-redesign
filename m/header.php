@@ -76,7 +76,6 @@
 				}
 			});
 
-
 			/* Default to fullscreen for now... */
 			if ($(".single")[0]){
 			$("body").toggleClass('fullscreen');
@@ -90,6 +89,15 @@
 				}
 			    $('#width-alert').html(body_size+'px');
 			}
+
+			/* SITE FUNCTIONALITY */
+
+			/* Collapsing sidebar nav */
+			$(".widget-nav h4").click(function(){
+				$(".widget-nav .widget-section").removeClass('active');
+				$(this).parent().addClass('active');
+			})
+
 		});
 	</script>
 </head>
