@@ -1,5 +1,6 @@
 		<aside class="sidebar sidebar-left">
 			<div class="widget widget-nav">
+				<h3>Explore</h3>
 				<section class="widget-section taxonomy-popular active">
 					<h4>Popular</h4>
 					<ul>

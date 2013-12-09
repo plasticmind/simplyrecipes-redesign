@@ -122,6 +122,9 @@ margin-bottom: 1em;
 .widget-nav {
   text-align: left;
 }
+.widget-nav h3 {
+  display: none;
+}
 .widget-nav h4 {
   padding: .5em;
   font-weight: bold;
@@ -285,6 +288,56 @@ article.entry h5 {
 
 @media only screen and (max-width: 950px) {
 
+.site-nav {
+  margin-left: 90px;
+}
+.sidebar-left .widget {
+  display: none;
+}
+.sidebar-left .widget-nav {
+  display: block;
+}
+.page-content {
+  padding: 0 320px 0 0; /* ---> Sidebar width */
+}
+.widget-nav {
+  display: block;
+  position: absolute;
+  min-height: 0;
+  height: 29px;
+  padding: 4px 10px;
+  top: -57px;
+  left: 180px;
+    border: solid 1px transparent;
+}
+.widget-nav:hover {
+  border: solid 1px #f00;
+  background: rgba(255,255,255,1);
+    min-width: 400px;
+    height: auto;
+}
+
+.widget-nav h3 {
+  height: 29px;
+  display: block;
+  cursor: pointer;
+}
+.widget-nav h3:after {
+  font-size: .7em;
+  content: "▼";
+  opacity: .3;
+  position: relative;
+  right: -5px;
+}
+.widget-nav h3:hover:after {
+  opacity: .8;
+}
+.widget-nav .widget-section {
+  display: none;
+}
+.widget-nav:hover .widget-section {
+  display: block;
+}
 
 }
 
