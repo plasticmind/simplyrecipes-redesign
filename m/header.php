@@ -7,6 +7,7 @@
 <head>
 	<title><?php echo $page_title; ?></title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="sandbox.css">
 	<link rel="stylesheet" href="style.css">
 	<?php echo (isset($header_meta)?$header_meta:''); ?>
 	<script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>

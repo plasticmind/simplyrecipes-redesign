@@ -11,7 +11,7 @@
 				<article class="entry recipe">
 					<header class="entry-header">
 						<h3 class="entry-title">A Good-Sized Sample Entry Title</h3>
-						<p class="entry-byline">Entry Byline</p>
+						<p class="entry-byline">Entry Byline - Right here.</p>
 					</header>
 					<div class="featured-image">
 						<img src="i/photo-vertical.jpg" alt="">

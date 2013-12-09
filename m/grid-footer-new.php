@@ -1,6 +1,13 @@
 		<aside class="sidebar sidebar-left">
 			<div class="widget widget-nav">
 				<section class="widget-section taxonomy-ingredient">
+					<h4>Popular</h4>
+					<ul>
+						<li>Chicken</li>
+						<li>Thanksgiving</li>
+					</ul>
+				</section>
+				<section class="widget-section taxonomy-ingredient">
 					<h4>Main Ingredients</h4>
 					<ul>
 						<li>Ingredient</li>
@@ -14,15 +21,52 @@
 				</section>
 				<section class="widget-section taxonomy-course">
 					<h4>Course</h4>
+					<ul>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+						<li>Course</li>
+					</ul>
 				</section>
 				<section class="widget-section taxonomy-type">
 					<h4>Recipe Type</h4>
+					<ul>
+						<li>Type</li>
+						<li>Type</li>
+						<li>Type</li>
+						<li>Type</li>
+						<li>Type</li>
+						<li>Type</li>
+						<li>Type</li>
+					</ul>
 				</section>
 				<section class="widget-section taxonomy-cuisine">
 					<h4>Cuisine</h4>
+					<ul>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+						<li>Cuisine</li>
+					</ul>
 				</section>
 				<section class="widget-section taxonomy-seasonal">
 					<h4>Seasonal</h4>
+					<ul>
+						<li>Season</li>
+						<li>Season</li>
+						<li>Season</li>
+						<li>Season</li>
+						<li>Season</li>
+						<li>Season</li>
+						<li>Season</li>
+					</ul>
 				</section>
 			</div>
 			<div class="widget widget-subscribe"><p>Widget: Subscribe</p></div>
