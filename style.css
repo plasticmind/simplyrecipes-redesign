@@ -20,7 +20,7 @@ padding: 20px;
 /* - FLUID/FLEXIBLE LAYOUT */
 
 .page-content {
-  padding: 0 320px 0 180px; /* ---> Sidebar width */
+  padding: 0 350px 0 180px; /* ---> Sidebar width */
 }
 .content-wrap,
 .sidebar {
@@ -38,7 +38,7 @@ margin-left: -100%;
 right: 180px;
 }
 .sidebar-right {
-  width: 300px;
+  width: 330px;
 left: 20px;
 margin-right: -100%;
 top: -100px;
@@ -93,7 +93,7 @@ margin-bottom: 20px;
 /* - SITE NAV */
 
 .site-nav {
-margin-right: 320px;
+margin-right: 335px;
 float: right;
 }
 .site-nav li {
@@ -118,6 +118,8 @@ margin-bottom: 1em;
 .widget-fbs {min-height:150px}
 .widget-ad-house {min-height:250px;}
 .widget-facebook {min-height:350px;}
+
+/* Nav Widget */
 
 .widget-nav {
   text-align: left;
@@ -163,13 +165,18 @@ margin-bottom: 1em;
 .widget-nav .widget-section.active ul {
   display: block;
 }
-.taxonomy-popular {
-  
-}
 .taxonomy-popular.active h4 {
   display: none;
 }
 
+/* Ad Widget */
+.ad-skyscraper {
+  padding: 0;
+  background: none;
+}
+.ad-skyscraper img:first-child {
+  margin-right: 10px;
+}
 
 /* - FOOTER */
 

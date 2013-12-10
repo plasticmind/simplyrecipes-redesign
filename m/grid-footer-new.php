@@ -72,7 +72,7 @@
 			<div class="widget widget-search"><p>Widget: Search</p></div>
 			<div class="widget widget-welcome"><p>Widget: Welcome</p></div>
 			<div class="widget widget-social"><p>Widget: Social Links</p></div>
-			<div class="widget widget-ad-square"><p>Ad: Blogher</p></div>
+			<div class="widget widget-ad ad-skyscraper"><img src="i/ad-160-sample-1.jpg" alt=""><img src="i/ad-160-sample-2.jpg" alt=""></div>
 			<div class="widget widget-recent"><p>Widget: Recent Posts</p></div>
 			<div class="widget widget-ad-house"><p>Ad: House</p></div>
 			<div class="widget widget-facebook"><p>Widget: Facebook</p></div>
