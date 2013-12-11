@@ -19,7 +19,7 @@ padding: 20px;
 
 /* - FLUID/FLEXIBLE LAYOUT */
 
-.fullscreen #wrap {
+#wrap {
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -294,7 +294,7 @@ article.entry h5 {
 /* == BREAKPOINTS --» 768px || 775px || 955px || 1110px  */
 
 @media only screen and (min-width: 1210px) {
-  .fullscreen #wrap { max-width: 1150px; }
+  #wrap { max-width: 1150px; }
   .page-content { padding: 0 370px 0 200px; }
   .sidebar-left { right: 200px; }
   .sidebar-right { left: 40px; }  
@@ -359,7 +359,7 @@ box-shadow: 0 2px .5em rgba(0,0,0,.2);
 
 }
 @media only screen and (max-width: 768px) {   /* ALERT BELOW ACCEPTABLE WIDTH */
-  .fullscreen #wrap {
+  #wrap {
     min-width: 754px;
   }
 }

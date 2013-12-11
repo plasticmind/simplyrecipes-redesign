@@ -3,24 +3,23 @@
 			<a href="/redesign/"></a>
 		</div>
 		<nav class="hud-nav">
-			<!-- <div id="hud-visibility">&larr; Minimize</div> -->
-			<ul>
-				<li>Grid
-					<ul>
-						<li><a href="grid-home">Home</a></li>
-						<li><a href="grid-archive">Archive</a></li>
-						<li><a href="grid-recipe">Recipe</a></li>
-						<li><a href="grid-page">Page</a></li>
-					</ul>
-				</li>
-				<li>Style Guide</li>
-				<!--
-				<li>Typography</li>
-				<li>Navigation</li>
-				<li>Forms</li>
-				<li>Dialogs</li>
-				<li>Widgets</li>
-				-->
-			</ul>
+			<!-- <div id="select-layout"></div> -->
+			<div id="select-template">
+				<h3>Choose a section...</h3>
+				<ul>
+					<li><a href="styles">Style Guide</a></li>
+					<li><a href="grid-home">Template: Home</a></li>
+					<li><a href="grid-archive">Template: Archive</a></li>
+					<li><a href="grid-recipe">Template: Recipe</a></li>
+					<li><a href="grid-page">Template: Page</a></li>
+				</ul>
+			</div>
+			<div id="select-photo">
+				<ul>
+					<li class="toggle-photo-vertical">Vert</li>
+					<li class="toggle-photo-horizontal inactive">Horiz</li>
+				</ul>
+			</div>
+			<div id="width-alert"></div>
 		</nav>
 	</div>

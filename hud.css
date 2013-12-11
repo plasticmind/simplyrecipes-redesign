@@ -1,0 +1,108 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* === Palette 
+   light brown: #c3b1a6
+   ghost brown: #efeae8
+   ghost brown (shadow): #efeae8
+*/
+
+/* === Sandbox/HUD Library */
+
+/* Layout Tools */
+#wrap {
+  margin-top: 30px !important;
+}
+#hud {
+font-size: 12px;
+position: fixed;
+top: 0;
+display: block;
+background: rgba(238,238,238,.95);
+padding: 6px 0 4px;
+width: 100%;
+height: 20px;
+z-index: 2;
+box-shadow: 0 0 2px #000;
+}
+#hud .inactive {
+cursor: pointer;
+background: #eee;
+color: #000;
+opacity: .7;
+border:solid 1px #ccc;
+}
+#hud .inactive:hover {
+background-color: #777;
+border-color: #555;
+color: #fff;
+}
+#select-photo, #select-template, #select-template h3, #select-photo li, #width-alert {
+display: inline-block;
+}
+#select-photo,
+#select-template {
+margin-left: 15px;
+}
+
+/* Template Selector */
+
+#select-template {
+  font-size: 13px;
+}
+#select-template h3 {
+  width: 140px;
+  margin-bottom: 10px;
+}
+#select-template:hover h3 {
+  font-weight: bold;
+}
+#select-template ul {
+display: none;
+  width: 120px;
+  position: absolute;
+  background: #fff;
+  top: 30px;
+  left: 0;
+background: rgba(238,238,238,1);
+padding: 15px;
+border: solid 1px #999;
+border-top: 0;
+border-left: 0;
+}
+
+#select-template:hover ul {
+  display: block;
+}
+
+/* Photo Toggle */
+
+#select-photo li {
+  border-radius: 10px;
+background: #333;
+color: #fff;
+padding: 1px 10px;
+opacity: .7;
+border: solid 1px #333;
+}
+
+
+/* Width Alert */
+
+#width-alert {
+  float: right;
+  margin: 1px 15px 0 0; 
+  color: #900;
+}
+
+/* Local Headers */
+.local-header {
+  padding: 20px;
+}
+.local-header h1 {
+  font-size: 24px;
+  margin-bottom: .5em;
+}
+.local-header h2 {
+  font-size: 16px;
+}
