@@ -117,6 +117,9 @@ margin-bottom: 1em;
 }
 .widget {min-height:100px;}
 .widget-ad-tall {min-height:600px;}
+.widget-search {min-height:85px;}
+.widget-welcome {min-height:160px;margin-bottom:1px}
+.widget-social {min-height:50px;line-height:40px;}
 .widget-fbs {min-height:150px}
 .widget-ad-house {min-height:250px;}
 .widget-facebook {min-height:350px;}
