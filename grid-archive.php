@@ -1,10 +1,6 @@
 <?php include( 'bootstrap.php'); ?>
 <?php include( INCLUDE_ROOT . 'header.php'); ?>
 
-<header class="local-header">
-	<h1>Site Layout: Archive</h1>
-</header>
-
 <section class="grid archive">
 <?php include( INCLUDE_ROOT . 'grid-header.php'); ?>	
 		<div class="content-wrap archive-entries">

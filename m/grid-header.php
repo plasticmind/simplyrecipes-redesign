@@ -1,11 +1,12 @@
 	<header class="site-header">
-		<div class="site-brand">Brand</div>
-		<div class="site-search">Search</div>
+		<div class="site-brand">
+			<div class="site-logo"></div>
+			<h1 class="site-name">Simply Recipes</h1>
+		</div>
 		<nav class="site-nav">
 			<ul>
-				<li>Home</li>
+				<li>First Time Here?</li>
 				<li>About</li>
-				<li>Recipe Index</li>
 				<li>Subscribe</li>
 				<li>Recipe Box</li>
 			</ul>

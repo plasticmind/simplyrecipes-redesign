@@ -198,7 +198,6 @@ width: 100%;
 .subscribe-email,
 .related-entries,
 .entry-comments,
-.recent-entries,
 .entry-full .ad {
 font-size: .9em;
 text-align: center;
@@ -209,20 +208,34 @@ min-height: 100px;
 line-height: 100px;
 }
 .entry-full .ad { width: 320px; min-height: 250px; margin: 0 auto 20px; }
-.recent-entries { min-height: 180px; }
 .entry-comments { min-height:500px }
 
 /* Entry Lists */ 
-article, .entry-list-full li, .entry-list-terse {
+
+.recent-entries article, .entry-list-full li, .entry-list-terse {
 clear: both;
 margin-bottom: 20px;
 }
 .entry-list-full .featured-image {
-width: 40%;
-padding-top: 20%; 
 margin: 0 10px 10px 0;
 float: left;
 }
+
+/* Article Defaults */
+
+.page-content article p,
+.page-content article ul,
+.page-content article h3,
+.page-content article h4,
+.page-content article h5 {
+  margin-bottom: 1em;
+}
+.page-content article h3,
+.page-content article h4,
+.page-content article h5 {
+  font-weight: bold;
+}
+
 
 /* Entry */
 
@@ -248,18 +261,6 @@ margin-bottom: 20px;
   max-width: 100%;
 }
 
-article.entry p,
-article.entry ul,
-article.entry h3,
-article.entry h4,
-article.entry h5 {
-  margin-bottom: 1em;
-}
-article.entry h3,
-article.entry h4,
-article.entry h5 {
-  font-weight: bold;
-}
 
 /* Recipe */
 

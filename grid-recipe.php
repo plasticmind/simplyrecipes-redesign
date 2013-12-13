@@ -1,8 +1,8 @@
 <?php include( 'bootstrap.php'); ?>
 <?php include( INCLUDE_ROOT . 'header.php'); ?>
 
-<section class="grid grid-new single recipe">
-<?php include( INCLUDE_ROOT . 'grid-header-new.php'); ?>
+<section class="grid single recipe">
+<?php include( INCLUDE_ROOT . 'grid-header.php'); ?>
 			<div class="content-wrap entry-full">
 				<article class="entry recipe">
 					<header class="entry-header">
@@ -66,7 +66,7 @@
 				<div class="entry-comments">Comments</div>
 				<div class="recent-entries">Recent Entries</div>
 			</div>
-<?php include( INCLUDE_ROOT . 'grid-footer-new.php'); ?>
+<?php include( INCLUDE_ROOT . 'grid-footer.php'); ?>
 </section>
 
 
