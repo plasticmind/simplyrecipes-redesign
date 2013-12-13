@@ -131,13 +131,14 @@ border: solid 1px #333;
 }
 
 /* Local Headers */
-.local-header {
+.style-guide, .local-header {
   padding: 20px;
 }
-.local-header h1 {
+.style-guide h1, .local-header h1 {
   font-size: 24px;
   margin-bottom: .5em;
 }
-.local-header h2 {
+.style-guide h2, .local-header h2 {
   font-size: 16px;
 }
+
