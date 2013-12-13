@@ -1,6 +1,7 @@
 <?php
 	// Set defaults
 	if (!isset($page_title)) $page_title = "Simply Recipes, Redesign: Style Guide";
+	if (!isset($page_basename)) $page_basename = basename($_SERVER['PHP_SELF'], '.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,11 +31,11 @@
 						$('.featured-image').html('<img src="i/photo-vertical.jpg" alt="">');
 					}
 				}
-			});
+			});			
 
 			/* Width alert */
 			function reportWidth(){
-				var body_size = $(document).width()+15;
+				var body_size = $(window).width()+15;
 			    $('#width-alert').html(body_size+'px');
 			}
 			var resizeTimer;

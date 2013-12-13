@@ -89,6 +89,26 @@ border-top: 0;
 #select-template:hover ul {
   display: block;
 }
+#select-template li {
+  margin-bottom: .5em;
+}
+#select-template li.current {
+  font-weight: bold;
+}
+#select-template li a {
+  text-decoration: none;
+}
+#select-template li a:hover {
+  font-weight: bold;
+}
+#select-template li.current a {
+  cursor: text;
+}
+
+#select-template li.current a:before {
+  content: "▸ "
+}
+
 
 /* Photo Toggle */
 

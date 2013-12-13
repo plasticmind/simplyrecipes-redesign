@@ -1,7 +1,9 @@
 	<header class="site-header">
 		<div class="site-brand">
-			<div class="site-logo"></div>
-			<h1 class="site-name">Simply Recipes</h1>
+			<a href="grid-home">
+				<div class="site-logo"></div>
+				<h1 class="site-name">Simply Recipes</h1>
+			</a>
 		</div>
 		<nav class="site-nav">
 			<ul>
