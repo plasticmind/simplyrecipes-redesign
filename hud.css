@@ -86,6 +86,7 @@ border:solid 1px #ccc;
 border-top: 0;
 }
 
+#select-template.hover ul,
 #select-template:hover ul {
   display: block;
 }

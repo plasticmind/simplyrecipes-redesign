@@ -33,6 +33,10 @@
 				}
 			});			
 
+			$("#select-template").on({ 'touchstart' : function() {
+				$(this).toggleClass('hover');
+			});			
+
 			/* Width alert */
 			function reportWidth(){
 				var body_size = $(window).width()+15;
