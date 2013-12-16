@@ -7,7 +7,7 @@
 			<ul class="entry-list-full entry-list">
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/1" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/1" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -17,7 +17,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/2" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/2" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -27,7 +27,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/3" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/3" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -37,7 +37,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/4" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/4" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -47,7 +47,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/5" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/5" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -57,7 +57,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/1" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/1" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -67,7 +67,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/2" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/2" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -77,7 +77,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/3" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/3" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -87,7 +87,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/4" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/4" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>
@@ -97,7 +97,7 @@
 				</li>
 				<li class="recipe">
 					<a href="grid-recipe">
-						<div class="featured-image"><img src="http://lorempixel.com/320/240/food/5" alt=""></div>
+						<div class="featured-image"><img src="http://lorempixel.com/400/300/food/5" alt=""></div>
 						<header class="entry-header">
 							<h3 class="entry-title">Entry Title</h3>
 							<p class="entry-byline">Entry Byline</p>

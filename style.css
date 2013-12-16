@@ -257,6 +257,58 @@ float: left;
 
 /* Entry List: Terse */
 
+/* Archive Lists */
+
+.archive .entry-list li {
+  float: left;
+  width: 50%;
+  clear: none;
+  position: relative;
+  box-shadow: 0 0 1px rgba(0,0,0,.3);
+  transition: box-shadow .25s top .25s;
+}
+.archive .entry-list li:hover {
+  box-shadow: 0 1px 2px rgba(128,0,0,.4);
+}
+.archive .entry-list li:nth-child(odd) {
+  left: -.5em;
+}
+.archive .entry-list li:nth-child(even) {
+  right: -.5em;
+}
+.archive .entry-list .featured-image {
+  margin: 0 0 .5em 0;
+}
+.archive .entry-list img {
+  margin: 0;
+}
+.archive .entry-list .entry-header {
+  padding: .2em 1em;
+}
+.archive .entry-list .entry-header .entry-byline {
+  display: none;
+}
+.archive .entry-list .entry-summary {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  background: rgba(255,255,255,.7);
+  transition: opacity .25s;
+  opacity: 0;
+  font-size: 1.1em;
+}
+.archive .entry-list li:hover {
+  position: relative;
+  top: -1px;  
+}
+.archive .entry-list li:hover .entry-summary {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+}
 
 /* Article Defaults */
 
@@ -403,6 +455,17 @@ box-shadow: 0 2px .5em rgba(0,0,0,.2);
 }
 
 /* == TWEAKPOINTS */
+
+/* Archive List Images Get Bigger */
+
+@media only screen and (max-width: 915px) {
+  .archive .entry-list li {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
+  }
+}
 
 /* Pages and Archives get narrow sidebar */
 @media only screen and (min-width: 955px) {
