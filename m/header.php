@@ -33,7 +33,7 @@
 				}
 			});			
 
-			$('#select-template').live("touchstart",function(e){
+			$('#select-template').on("touchstart",function(e){
 			    $(this).toggleClass('hover');
 			});
 
