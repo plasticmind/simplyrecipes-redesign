@@ -33,9 +33,9 @@
 				}
 			});			
 
-			$("#select-template").on({ 'touchstart' : function() {
-				$(this).toggleClass('hover');
-			});			
+			$('#select-template').live("touchstart",function(e){
+			    $(this).toggleClass('hover');
+			});
 
 			/* Width alert */
 			function reportWidth(){
